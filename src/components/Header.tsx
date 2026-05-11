@@ -45,7 +45,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <BrainCircuit className="w-8 h-8 text-brand-green mr-2" />
-            <span className="text-white font-bold text-xl">Waziri Labs</span>
+            <span className="text-white font-bold text-xl">Waziri Collective Labs</span>
           </div>
           
           <nav className="hidden md:flex space-x-8">

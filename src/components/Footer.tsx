@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div className="md:col-span-1">
             <div className="flex items-center mb-4">
               <BrainCircuit className="w-6 h-6 text-brand-green mr-2" />
-              <span className="text-white font-bold text-lg">Waziri Labs</span>
+              <span className="text-white font-bold text-lg">Waziri Collective Labs</span>
             </div>
             <p className="mb-4 text-sm">
               Intelligent systems for a more human future. Because precise automation unlocks human creativity.
@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 text-brand-green mr-2 flex-shrink-0" />
-                <span>hello@wazirilabs.com</span>
+                <span>hello@waziricollectivelabs.com</span>
               </li>
             </ul>
           </div>
