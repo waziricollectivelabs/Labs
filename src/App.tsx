@@ -4,6 +4,18 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import CaseStudies from './components/CaseStudies';
 import Blog from './components/Blog';
+import TeamProfiles from './components/TeamProfiles';
+import Testimonials from './components/Testimonials';
+import ServiceCalculator from './components/ServiceCalculator';
+import FAQ from './components/FAQ';
+import LiveChat from './components/LiveChat';
+import ClientLogos from './components/ClientLogos';
+import Pricing from './components/Pricing';
+import Integrations from './components/Integrations';
+import BlogSubscription from './components/BlogSubscription';
+import TeamDirectory from './components/TeamDirectory';
+import RecentProjects from './components/RecentProjects';
+import ROICalculator from './components/ROICalculator';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -72,11 +84,23 @@ function App() {
   return (
     <div className="bg-brand-dark min-h-screen text-white">
       <Header />
+      <LiveChat />
       <main>
         <Hero />
         <Services />
         <CaseStudies />
+        <TeamProfiles />
+        <Testimonials />
+        <ClientLogos />
         <Blog />
+        <BlogSubscription />
+        <RecentProjects />
+        <ServiceCalculator />
+        <ROICalculator />
+        <Pricing />
+        <Integrations />
+        <TeamDirectory />
+        <FAQ />
         <About />
         <Contact />
       </main>
@@ -85,4 +109,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
